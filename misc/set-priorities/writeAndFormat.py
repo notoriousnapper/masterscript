@@ -1,16 +1,10 @@
 import datetime;
 from const import *;
-# mylist = []
-# mylist.append(today)
-# print mylist[0]
-
-
-# def writeAndFormat(intuitGoal, dreamGoal):
-#     writeAndFormat(intuitGoal, dreamGoal, "./Goals.txt")
-
 
 def writeAndFormatToDesignatedFolder(intuitGoal, dreamGoal):
-    writeAndFormat(intuitGoal, dreamGoal, "/Users/" + "jesseren" + "/Desktop/ToBePrinted/Goals.txt")
+    writeAndFormat(intuitGoal, dreamGoal, "./goals/Goals.txt")
+    # writeAndFormat(intuitGoal, dreamGoal, "/Users/" + "jesseren" + "/Desktop/ToBePrinted/Goals.txt")
+    # Trying to set up workflow above
 
 def writeAndFormat(intuitGoal, dreamGoal, pathToFile="./Goals.txt"):
    today = datetime.date.today()
