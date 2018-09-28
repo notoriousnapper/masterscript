@@ -1,19 +1,23 @@
-GOAL of this is to automate setting day by day goals for self.
-To be used in conjunction with printing a template, that I can write on before
-going to sleep.
+# PROJECT HERMES
+GOAL of this project is to automate setting day-by-day tasks for self.
+After being vigorously questioned by a terminal prompt, a file called "Goals.txt" will be generated for you to print out, and you will be able to
+write your basic plan for tomorrow as well.
 
-==== TO RUN ====
-1. First, make sure all modules these are downloaded
-pip install pyttsx3;
-pip install pyfiglet
-pip install pyyaml
+---
+## TO RUN
+1. First, make sure all modules these are downloaded by running these commands
+in terminal:   
+pip install pyttsx3;    
+pip install pyfiglet  
+pip install pyyaml  
 
 2. Run "python hermes.py"
 
-==== THINGS TO TRY ====
-in config.yml, set mode to "dick" or "nice"
+### THINGS TO TRY
+In config.yml, set mode to "dick" or "nice".  Try it and see what happens.
 
-==== PRIORITY ===
+### Unfinished Business
+#### Features to Finish
 00. Check if file exists, if not, create it, / replace contents
 [DONE] 5. Detect Environment (different computer/ user path, etc.) // config files to (initialize)
 --> given a config.yml file, set configuration and update "writeAndFormat" - to pick up
@@ -24,13 +28,11 @@ in config.yml, set mode to "dick" or "nice"
 3. Have it enabled to take 0-3 goals at a time
 4. Have it have syntax & syllable check! (and memorize internally for self)
 
-Reference for printing formatting:
-https://stackoverflow.com/questions/5214578/python-print-string-to-text-file
+Reference & Links   
+[Printing To TextFiles](https://stackoverflow.com/questions/5214578/python-print-string-to-text-file)
 
-ASCII ART:
-<!-- http://patorjk.com/software/taag/#p=testall&h=1&v=0&c=bash&f=Jacky&t=HERMES -->
-https://www.hackerearth.com/practice/notes/beautiful-python-a-simple-ascii-art-generator-from-images/
+[ASCII ART:](http://patorjk.com/software/taag/#p=testall&h=1&v=0&c=bash&f=Jacky&t=HERMES)
+[Simple Generator](https://www.hackerearth.com/practice/notes/beautiful-python-a-simple-ascii-art-generator-from-images/)
 
 
-Config Files in Python:
-https://martin-thoma.com/configuration-files-in-python/
+[Config Files in Python](https://martin-thoma.com/configuration-files-in-python/)
