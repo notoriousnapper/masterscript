@@ -23,6 +23,11 @@ In config.yml, set mode to "dick" or "nice".  Try it and see what happens.
 --> given a config.yml file, set configuration and update "writeAndFormat" - to pick up
 --> Error Solving for that file  
 
+
+1.2 Bake in Questions that will make Goals "SMART"
+1.3 Add AppleScript that will Format Goals & Template To make it easier
+1.4 Possible add feature to make yourself accountable for goals (and share with a friend)
+
 [IN-PROG] 1. Randomizing order of "Congratulations", adverbs, and response statements (pull from internet)  
 2. Formatting output (low imp)  
 3. Have it enabled to take 0-3 goals at a time  
